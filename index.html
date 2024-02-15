@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="shortcut icon"
+      href="imgs/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Task2 - Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-200">
+    <div class="container w-3/4 my-5 mx-auto text-center">
+      <div class="flex justify-center items-center pt-7 mb-5">
+        <img src="imgs/logo.svg" alt="Logo" />
+      </div>
+      <h5 class="text-2xl text-gray-600">
+        We are launching
+        <span class="font-bold text-3xl text-black">soon!</span>
+      </h5>
+      <p class="text-sm capitalize mt-2 text-gray-500 mb-4">
+        subscribe and get notified
+      </p>
+      <form>
+        <div class="mx-auto mb-10 flex justify-center flex-col md:flex-row">
+          <input
+            class="placeholder:italic placeholder:text-slate-400 bg-white border border-blue-600 rounded-full py-2 pl-5 pr-28 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm mb-3 md:mb-0"
+            placeholder="Your email address  "
+            type="text"
+            name="search"
+          />
+          <a
+            href="#"
+            class="bg-blue-600 rounded-full py-2 p-6 text-white capitalize text-sm font-semibold shadow-sm shadow-neutral-500 ml-2 hover:bg-blue-800 transition-all duration-500"
+            >notify me</a
+          >
+        </div>
+      </form>
+      <div class="w-3/4 mx-auto mb-12">
+        <img src="imgs/illustration-dashboard.png" alt="photo" />
+      </div>
+      <div class="flex justify-center gap-4 text-sm mb-5">
+        <a
+          class="bg-white rounded-full w-11 h-11 flex justify-center items-center"
+          href="https://www.facebook.com/profile.php?id=100006697871359"
+          target="_blank"
+          ><i class="facebook fa-brands fa-facebook-f fa-2x text-blue-600"></i
+        ></a>
+        <a
+          class="bg-white rounded-full w-11 h-11 flex justify-center items-center"
+          href="https://www.linkedin.com/in/ahmed-wael-91929b224/"
+          target="_blank"
+          ><i class="linked-in fa-brands fa-linkedin-in fa-2x text-blue-600"></i
+        ></a>
+        <a
+          class="bg-white rounded-full w-11 h-11 flex justify-center items-center"
+          href="https://twitter.com/A7madwael29"
+          target="_blank"
+          ><i class="twitter fa-brands fa-twitter fa-2x text-blue-600"></i
+        ></a>
+      </div>
+      <p class="text-gray-400">&copy; Copyright Ping. All rights reserved</p>
+    </div>
+  </body>
+</html>
